@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style4.css" >
+
+</head>
+<body> 
+	
+<button  onclick="bold()">bold</button>
+<button  onclick="italic()">italic</button>
+<button  onclick="underlined()">underlined</button>
+
+<select id="ft" onchange="frontfamily()" class="dropdown">
+  <option value="Time New Roman">Time New Roman</option>
+  <option value="Calibri">calibri</option>
+  <option value="Arial">Arial</option>
+  <option value="Verdana">Verdana</option>
+</select>
+
+<select id="nb" onchange="frontSize()" class="dropdown" >
+  <option value="15px">15</option>
+  <option value="30px">30</option>
+  <option value="40px">40</option>
+  <option value="45px">45</option>
+</select>
+<br>
+<br> 
+<br>
+<br>
+<textarea id="text" rows="30" cols="70"> 
+</textarea>
+
+
+
+</body>
+<script src ="js/style.js"></script>
+</html>
